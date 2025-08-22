@@ -1,13 +1,13 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Readers;
+namespace Jorbascrumps\LaravelTombstones\Readers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\LazyCollection;
 use Illuminate\Support\Str;
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneReaderContract;
-use Jorbascrumps\LaravelTombstone\Tombstone;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneReaderContract;
+use Jorbascrumps\LaravelTombstones\Tombstone;
 use JsonException;
 
 class FilesystemReader implements TombstoneReaderContract

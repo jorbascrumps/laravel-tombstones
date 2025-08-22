@@ -79,13 +79,13 @@ You can define configuration variables in your `.env` file:
 First publish the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="Jorbascrumps\LaravelTombstone\ServiceProvider"
+php artisan vendor:publish --provider="Jorbascrumps\LaravelTombstones\ServiceProvider"
 ```
 
 Implement the provided reader/ writer contracts:
 
 ```php
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneWriterContract;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneWriterContract;
 
 class DatabaseWriter implements TombstoneWriterContract
 {
