@@ -1,0 +1,42 @@
+{
+    "name": "jorbascrumps/laravel-tombstones",
+    "description": "TODO",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Chris Wright",
+            "email": "hello@chriswright.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^8 || ^9 || ^10 || ^11 || ^12",
+        "laravel/prompts": "^0.3.6"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "orchestra/testbench": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jorbascrumps\\LaravelTombstone\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jorbascrumps\\LaravelTombstone\\ServiceProvider"
+            ]
+        }
+    }
+}
