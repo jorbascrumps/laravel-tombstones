@@ -1,6 +1,6 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone;
+namespace Jorbascrumps\LaravelTombstones;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;

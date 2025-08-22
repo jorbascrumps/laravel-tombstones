@@ -1,13 +1,13 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Console\Commands;
+namespace Jorbascrumps\LaravelTombstones\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Number;
 use Illuminate\Support\Str;
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneReaderContract;
-use Jorbascrumps\LaravelTombstone\Filters\DayFilter;
-use Jorbascrumps\LaravelTombstone\TombstoneScanner;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneReaderContract;
+use Jorbascrumps\LaravelTombstones\Filters\DayFilter;
+use Jorbascrumps\LaravelTombstones\TombstoneScanner;
 use function Laravel\Prompts\note;
 use function Laravel\Prompts\spin;
 use function Laravel\Prompts\table;
@@ -17,7 +17,7 @@ class ReportTombstones extends Command
     /**
      * The name and signature of the console command.
      */
-    protected $signature = 'tombstone:report'
+    protected $signature = 'tombstones:report'
                          . '{--days= : The number of days to report tombstones for}'
                          . '{--only= : TODO}';
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Filters;
+namespace Jorbascrumps\LaravelTombstones\Filters;
 
-use Jorbascrumps\LaravelTombstone\Tombstone;
+use Jorbascrumps\LaravelTombstones\Tombstone;
 
 class DayFilter
 {

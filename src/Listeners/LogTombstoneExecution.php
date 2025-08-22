@@ -1,9 +1,9 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Listeners;
+namespace Jorbascrumps\LaravelTombstones\Listeners;
 
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneWriterContract;
-use Jorbascrumps\LaravelTombstone\Events\TombstoneExecuted;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneWriterContract;
+use Jorbascrumps\LaravelTombstones\Events\TombstoneExecuted;
 
 class LogTombstoneExecution
 {

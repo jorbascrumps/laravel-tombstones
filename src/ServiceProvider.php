@@ -1,13 +1,13 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone;
+namespace Jorbascrumps\LaravelTombstones;
 
 use Illuminate\Support\Facades\Event;
-use Jorbascrumps\LaravelTombstone\Console\Commands\ReportTombstones;
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneReaderContract;
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneWriterContract;
-use Jorbascrumps\LaravelTombstone\Events\TombstoneExecuted;
-use Jorbascrumps\LaravelTombstone\Listeners\LogTombstoneExecution;
+use Jorbascrumps\LaravelTombstones\Console\Commands\ReportTombstones;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneReaderContract;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneWriterContract;
+use Jorbascrumps\LaravelTombstones\Events\TombstoneExecuted;
+use Jorbascrumps\LaravelTombstones\Listeners\LogTombstoneExecution;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Contracts;
+namespace Jorbascrumps\LaravelTombstones\Contracts;
 
 interface TombstoneWriterContract
 {

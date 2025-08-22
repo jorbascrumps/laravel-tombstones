@@ -1,6 +1,6 @@
 <?php
 
-use Jorbascrumps\LaravelTombstone\Events\TombstoneExecuted;
+use Jorbascrumps\LaravelTombstones\Events\TombstoneExecuted;
 
 if (! function_exists('tombstone')) {
     function tombstone(string $label, array $context = []): void {

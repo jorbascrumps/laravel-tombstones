@@ -1,6 +1,6 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone;
+namespace Jorbascrumps\LaravelTombstones;
 
 class Tombstone
 {

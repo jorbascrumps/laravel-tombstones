@@ -7,9 +7,9 @@ return [
 
     'filename' => env('TOMBSTONE_FILENAME', 'tombstones.jsonl'),
 
-    'reader' => Jorbascrumps\LaravelTombstone\Readers\FilesystemReader::class,
+    'reader' => Jorbascrumps\LaravelTombstones\Readers\FilesystemReader::class,
 
-    'writer' => Jorbascrumps\LaravelTombstone\Writers\FilesystemWriter::class,
+    'writer' => Jorbascrumps\LaravelTombstones\Writers\FilesystemWriter::class,
 
     'trace_depth' => env('TOMBSTONE_TRACE_DEPTH', 1),
 

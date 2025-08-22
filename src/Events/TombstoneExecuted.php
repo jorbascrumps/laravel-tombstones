@@ -1,6 +1,6 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Events;
+namespace Jorbascrumps\LaravelTombstones\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Jorbascrumps\LaravelTombstone\Writers;
+namespace Jorbascrumps\LaravelTombstones\Writers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
-use Jorbascrumps\LaravelTombstone\Contracts\TombstoneWriterContract;
+use Jorbascrumps\LaravelTombstones\Contracts\TombstoneWriterContract;
 use JsonException;
 
 class FilesystemWriter implements TombstoneWriterContract
